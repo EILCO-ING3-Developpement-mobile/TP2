@@ -33,9 +33,11 @@ public class TP2Activity extends AppCompatActivity {
                         .setAction("Action", null).show();
             }
         });
-
+        //récupération des elements graphiques depuis les id comme déclaré dans le fichier XML
         etNumber1=(EditText) findViewById(R.id.number1);
         etNumber2=(EditText) findViewById(R.id.number2);
+        tvResult=(TextView) findViewById(R.id.result);
+
     }
 
     @Override
